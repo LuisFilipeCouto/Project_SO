@@ -1,32 +1,14 @@
-# Prerequisites
-*.d
+# all files and folders are to be ignored...
+/*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# except those following
+!.gitignore
+!bin
+!build
+!doc
+!include
+!lib
+!scripts
+!src
+!*.sh
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
