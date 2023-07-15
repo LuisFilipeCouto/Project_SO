@@ -34,7 +34,7 @@ cd bin
 ./mksofs /tmp/dsk               # format the disk as a sofs20 file system
 mkdir /tmp/mnt                  # our mount point
 ./sofsmount /tmp/dsk /tmp/mnt   # mount the disk in the mount point
-./showblock /tmp/dsk            # show details about the mount point
+./showblock /tmp/dsk            # show details about the disk
 ```
 
 There are also additional test scripts in the base directory that you can use
